@@ -1,0 +1,23 @@
+input{
+
+    width:60%;
+    height:30px;
+    font-size: 25px;
+}
+
+ol{
+    height:62vh;
+    width:90%;
+    overflow-y: scroll;
+    border: solid black 3px;
+
+}
+
+.chat{
+    border: solid grey 1px;
+    width:75%;
+}
+{
+    border:solid grey 1px;
+}
+
