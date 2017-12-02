@@ -1,0 +1,44 @@
+input{
+
+    width:60%;
+    height:30px;
+    font-size: 25px;
+}
+
+ol{
+    height:62vh;
+    width:70%;
+    overflow-y: scroll;
+    border: solid black 3px;
+
+}
+
+.chat{
+    border: solid grey 1px;
+    width:75%;
+}
+
+@media screen and (min-width: 320px),(max-width:480px){
+
+
+    input{
+
+    width:80%;
+    height:20%;
+
+}
+
+ol{
+    height:70vh;
+    width:100%;
+    overflow-y: scroll;
+    border: solid black 3px;
+
+}
+
+.chat{
+    border: solid grey 1px;
+    width:100%;
+}
+
+}
