@@ -10,11 +10,11 @@ socket.on('disconnect',function(){
 
 
 socket.on('msgAudio',function(msg){
-    /*var msg2 = new SpeechSynthesisUtterance(`${msg.from} messaged you`);
+    var msg2 = new SpeechSynthesisUtterance(`${msg.from} messaged you`);
     window.speechSynthesis.speak(msg2);
     var msg1 = new SpeechSynthesisUtterance(msg.text);
     window.speechSynthesis.speak(msg1);
-    */
+    
 
 
 
