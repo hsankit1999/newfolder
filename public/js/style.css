@@ -18,12 +18,12 @@ ol{
     width:75%;
 }
 
-@media screen and (min-width: 320px),(max-width:480px){
+@media screen and (max-width:480px){
 
 
     input{
 
-    width:80%;
+    width:75%;
     height:20%;
 
 }
@@ -39,6 +39,15 @@ ol{
 .chat{
     border: solid grey 1px;
     width:100%;
+}
+
+button{
+    //height:40px;
+    width:20%;
+    min-width: 25px;
+}
+p{
+    font-size: 20px;
 }
 
 }
