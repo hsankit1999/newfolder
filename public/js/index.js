@@ -87,7 +87,7 @@ function Typing(){
 $(document).ready(function(){
     $('#message-form').on('submit touchstart',function(e){
         e.preventDefault();
-        e.stopPropagation();
+       
 
         socket.emit('newMessage',{
             from:$.deparam(window.location.search).name,
