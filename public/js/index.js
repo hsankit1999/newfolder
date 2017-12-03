@@ -96,7 +96,7 @@ $(document).ready(function(){
         ()=>{
             console.log('done');
         });
-        $('[name=chat]').text('');
+        $('[name=chat]').val('');
     });
 
     $('#loc').on('click',function(){
