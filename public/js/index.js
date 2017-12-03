@@ -96,9 +96,10 @@ $(document).ready(function(){
         ()=>{
             console.log('done');
         });
+        $('[name=chat]').text('');
     });
 
-    $('#loc').on('click touchstart',function(){
+    $('#loc').on('click',function(){
         if(!navigator.geolocation){
             return alert("Location not found");
         }
