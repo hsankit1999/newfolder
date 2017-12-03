@@ -85,8 +85,9 @@ function Typing(){
 
 //socket.emit('newMessage',);
 $(document).ready(function(){
-    $('#message-form').on('submit',function(e){
+    $('#message-form').on('submit touchstart',function(e){
         e.preventDefault();
+        e.stopPropagation();
 
         socket.emit('newMessage',{
             from:$.deparam(window.location.search).name,
@@ -97,7 +98,7 @@ $(document).ready(function(){
         });
     });
 
-    $('#loc').on('click',function(){
+    $('#loc').on('click touchstart',function(){
         if(!navigator.geolocation){
             return alert("Location not found");
         }
