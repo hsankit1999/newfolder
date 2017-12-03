@@ -85,7 +85,7 @@ function Typing(){
 
 //socket.emit('newMessage',);
 $(document).ready(function(){
-    $('#message-form').on('submit touchstart',function(e){
+    $('#message-form').on('submit',function(e){
         e.preventDefault();
        
 
